@@ -4,6 +4,12 @@
 ## 📌 Project Overview
 This repository documents the architecture, deployment, and testing of a 4-node, air-gapped network built entirely on Raspberry Pis. Designed as a practical coursework project at Savonia UAS, this environment serves as an isolated cyber threat simulation lab. The primary goal was to build a functional network, execute common attack vectors, and monitor the resulting traffic using an industry-standard SIEM and IDS stack.
 
+<p align="center">
+  <img src="images/grafana.png" width="80%">
+  <br>
+  <em>Visualizing a Hydra brute-force attack in real-time. The chart shows the spike in login activity, while the table details the failed attempts captured by the SOC stack.</em>
+</p>
+
 ## 🏗️ Architecture & Topology
 The environment is physically air-gapped and consists of four main nodes:
 * **Node 1 (Router/AP):** Configured as the network backbone.
